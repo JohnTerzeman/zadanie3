@@ -16,6 +16,12 @@ class Dog extends Animal {
     }
 }
 public class Main {
+
+    public void test(Animal animal)
+    {
+        animal.makeSound();
+    }
+
     public static void main(String[] args) {
         Animal[] animals = new Animal[3];
         animals[0] = new Cat();
